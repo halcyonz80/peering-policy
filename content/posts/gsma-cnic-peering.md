@@ -79,7 +79,69 @@ Interconnection at a minimum of two (2) diverse peering points.
 
 CentralNic reserves the right to modify the routing configuration in coordination with the Peer as necessary in order to improve routing between the CentralNic and Peer networks.
 
-# Peering Policy
+# Technical and Operational Requirements
+
+## 4.1 Cooperation and Operational Standards
+
+The parties agree to cooperate and to use all reasonable efforts to create and adopt mutually agreeable performance and operational standards and procedures in order to facilitate the provision of high-quality, cost-effective services utilizing each party’s Network and the Interconnection Point(s).
+
+## 4.2 Network Architecture and Redundancy
+
+Each party represents to the other that the Interconnection Point(s) are connected as part of an internal Network architecture. Peer must operate a fully redundant network capable of handling a single-node outage in each network without significantly affecting the traffic being exchanged.
+
+## 4.3 Network Operations Center (NOC)
+
+Each party shall maintain a fully staffed network operations center (“NOC”) that operates on a 24 hours/day and 7-days/week basis. The Parties shall exchange up-to-date contact information for their respective NOCs and shall continue to keep such information updated.
+
+## 4.4 Confidentiality and Information Disclosure
+
+The peering does not include the right to disclose or obtain information related to the NeuStar Network topology or configuration to a third party outside the scope of troubleshooting within the peer’s organization or equipment vendor(s).
+
+# Routing Requirements
+
+## 5.1 AS Numbers and IP Addresses
+
+- All Peers must use globally unique AS Numbers and IP Addresses (including the Peer ID).
+
+## 5.2 Internet Routing Registry
+
+- Each party should register the routes, routing domains, and routing policies of its public Internet subscribers in a public Internet Routing Registry.
+
+## 5.3 Packet Delay
+
+- Each party shall use their reasonable efforts to achieve a minimum end-to-end one-way packet delay.
+
+## 5.4 Multi-Exit Discriminator (MED) Attributes
+
+- Each party shall announce routes using multi-exit discriminator (“MED”) attributes.
+
+## 5.5 Third Party Routes
+
+- Neither party shall send Third Party routes, and necessary precautions should be taken to prevent leaking transit routes to each other. If a party detects Third Party routes without notice to the other party, it shall have the right to block such routes.
+
+## 5.6 Consistent Routing
+
+- The parties shall maintain a consistent routing announcement, presenting the same Autonomous System number as well as advertise consistent prefixes at all mutual Interconnection Point(s).
+
+## 5.7 Advertise Necessary Network Prefixes
+
+- The Peer shall only advertise necessary network prefixes that need to access CentralNic services.
+
+## 5.8 Packet Filters and Bad Traffic
+
+- CentralNic reserves the right to apply packet filters which prevent bad traffic including the injection of spoofed packets, malicious traffic, misconfiguration, abuse of network capacity. CentralNic reserves the right to temporarily de-peer as a result of receiving bad traffic from a peer which results in a degradation in performance to other peers.
+
+## 5.9 MD5 Digest Authentication
+
+- All Peers must use MD5 digest to authenticate BGP4 sessions and specify individually unique strings for each and every session.
+
+## 5.10 Route of Last Resort
+
+- Neither party shall establish a Route of Last Resort (default route) directed toward the other party’s Network. Instead, the parties will fully exchange explicit routes comprising public Internet service destinations of entities whose traffic either party is obligated contractually to carry.
+
+## 5.11 Soft Reconfiguration
+
+- All peers must support soft reconfiguration.
 
 ## 6. Customer Relations and Administration
 
@@ -124,12 +186,11 @@ In the event that this Policy, or any of the terms hereof, becomes subject to re
 The Peering Policy of both parties is dependent on (a) the following parameters in respect of CentralNic and (b) the parameters set out in the GSMA Root DNS Service Agreement in respect of Customer.
 
 ### Technical Contact details
-
-Address: Saddlers House, 44 Gutter Ln, London EC2V 6BR
-Phone: 020 3388 0600
-Email (General):
-Email (Peering):
-Slack:
+- Address: Saddlers House, 44 Gutter Ln, London EC2V 6BR
+- Phone: 020 3388 0600
+- Email (General): 
+- Email (Peering): 
+- Slack:
 
 ### ASN: 
 - **11111**

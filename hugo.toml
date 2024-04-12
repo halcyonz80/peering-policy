@@ -4,12 +4,15 @@ theme = "terminal"
 paginate = 5
 
 [params]
+
+  mainSections = ["posts"]
+
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "blue"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -18,7 +21,7 @@ paginate = 5
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # center theme with default width
   centerTheme = false
@@ -46,7 +49,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Peering Policy"
     subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""
@@ -65,8 +68,9 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "/about"
+        url = "/posts/about/"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "Peering Policy "
+        name = "CNIC GSMA peering"
+        url = "/posts/gsma-cnic-peering/"
+

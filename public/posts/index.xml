@@ -1,30 +1,205 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Terminal</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on Terminal</description>
+    <title>Posts on Peering Policy</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on Peering Policy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Apr 2024 10:58:07 +0100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Apr 2024 13:45:01 +0100</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>/posts/hello-world/</link>
-      <pubDate>Fri, 12 Apr 2024 10:58:07 +0100</pubDate>
+      <title>Gsma Cnic Peering</title>
+      <link>//localhost:1313/posts/gsma-cnic-peering/</link>
+      <pubDate>Fri, 12 Apr 2024 11:38:41 +0100</pubDate>
       
-      <guid>/posts/hello-world/</guid>
-      <description>Hello World Welcome to my first Hugo post! This is where you can add your actual content. You can use Markdown syntax to format your text, add headings, lists, links, images, and more.
-Subheading Here&amp;rsquo;s a list:
-Item 1 Item 2 Item 3 </description>
-      <content>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;
-&lt;p&gt;Welcome to my first Hugo post! This is where you can add your actual content. You can use Markdown syntax to format your text, add headings, lists, links, images, and more.&lt;/p&gt;
-&lt;h2 id=&#34;subheading&#34;&gt;Subheading&lt;/h2&gt;
-&lt;p&gt;Here&amp;rsquo;s a list:&lt;/p&gt;
+      <guid>//localhost:1313/posts/gsma-cnic-peering/</guid>
+      <description>Peering Policy Introduction Welcome to our peering policy page. This document outlines the guidelines and requirements for establishing peering connections with our network.
+Guidelines Eligibility: Peering requests are evaluated based on specific criteria. Technical Requirements: Peering partners must meet certain technical requirements. Routing Policies: Our routing policies and procedures are outlined here. Contact Information: Contact details for peering inquiries. CentralNic Registry GRX Bilateral Peering Policy 1. Definitions Terms used in this Peering Policy that are not defined below or in the Agreement are defined in the context in which they are used and have the meanings there stated, and:</description>
+      <content>&lt;h1 id=&#34;peering-policy&#34;&gt;Peering Policy&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Welcome to our peering policy page. This document outlines the guidelines and requirements for establishing peering connections with our network.&lt;/p&gt;
+&lt;h2 id=&#34;guidelines&#34;&gt;Guidelines&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
-&lt;li&gt;Item 3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eligibility:&lt;/strong&gt; Peering requests are evaluated based on specific criteria.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technical Requirements:&lt;/strong&gt; Peering partners must meet certain technical requirements.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Routing Policies:&lt;/strong&gt; Our routing policies and procedures are outlined here.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contact Information:&lt;/strong&gt; Contact details for peering inquiries.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;centralnic-registry-grx-bilateral-peering-policy&#34;&gt;CentralNic Registry GRX Bilateral Peering Policy&lt;/h2&gt;
+&lt;h2 id=&#34;1-definitions&#34;&gt;1. Definitions&lt;/h2&gt;
+&lt;p&gt;Terms used in this Peering Policy that are not defined below or in the Agreement are defined in the context in which they are used and have the meanings there stated, and:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autonomous System&lt;/strong&gt;: A connected group of one or more IP prefixes run by one or more network operators, which has a single and clearly defined routing policy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Border Gateway Protocol (BGP)&lt;/strong&gt;: Standard(s) for inter-Autonomous System routing protocol(s) as recommended now or in the future by the Internet Engineering Task Force (“IETF”).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explicit Route&lt;/strong&gt;: A route that covers only a strict, limited subset of all possible destinations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interconnection Point&lt;/strong&gt;: Any interconnection point, public or private, at which the parties agree to connect their respective Networks under this Policy. A description of all Interconnection Points is set forth on Schedule 1 attached hereto and incorporated by this reference, and Schedule 1 shall be amended in writing only by mutual agreement of the parties in the event of any changes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Internet Protocol (IP)&lt;/strong&gt;: Networking protocols and procedures, used to provide communication across interconnected networks, that meet the definition of Internet Standards as agreed upon by the Network Working Group of the Internet Architecture Board (“IAB”) and the IETF.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Internet Service Provider (ISP)&lt;/strong&gt;: A seller of public Internet access and connectivity services operating a Network.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network&lt;/strong&gt;: A communications network running IP.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CentralNic&lt;/strong&gt;: CentralNic, a limited liability company with a principal place of business at Saddlers House, 44 Gutter Ln, London EC2V 6BR.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Route of Last Resort (default route)&lt;/strong&gt;: A route directing traffic for which no explicit route exists.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Third Party&lt;/strong&gt;: Any party other than Customer or CentralNic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Third Party Transit Services&lt;/strong&gt;: The use of an ISP’s Network to transport traffic between or among two or more destinations, where neither of those destinations is a customer of that ISP.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;peering-policy-1&#34;&gt;Peering Policy&lt;/h1&gt;
+&lt;h2 id=&#34;2-introduction&#34;&gt;2. Introduction&lt;/h2&gt;
+&lt;p&gt;This Peering Policy describes and defines the minimum criteria that CentralNic has established for providing the interconnection between the CentralNic Networks and other Internet Networks in the various regions of the world.&lt;/p&gt;
+&lt;h2 id=&#34;3-connectivity-and-network-peering-requirements&#34;&gt;3. Connectivity and Network Peering Requirements&lt;/h2&gt;
+&lt;h3 id=&#34;31-exchange-of-ip-traffic&#34;&gt;3.1 Exchange of IP Traffic&lt;/h3&gt;
+&lt;p&gt;The parties agree to exchange IP traffic using BGP between their respective Networks at Interconnection Points that shall have been agreed upon by the parties in writing (including, without limitation, by email).&lt;/p&gt;
+&lt;h3 id=&#34;32-bgp-version-and-connectivity&#34;&gt;3.2 BGP Version and Connectivity&lt;/h3&gt;
+&lt;p&gt;The parties agree to maintain a current BGP version. Each party shall provide, at its own expense, a connection from its Network to the Interconnection Points hereunder. Each party shall bear the cost of the termination equipment at the end of its connection to the Interconnection Points.&lt;/p&gt;
+&lt;h3 id=&#34;33-traffic-restrictions&#34;&gt;3.3 Traffic Restrictions&lt;/h3&gt;
+&lt;p&gt;Each party agrees not to restrict traffic flowing through the Interconnection Points to and from the other party based on the subject matter of the traffic, unless required to do so by an appropriate regulation, order, or similar action of a court, regulatory or governmental agency of competent jurisdiction.&lt;/p&gt;
+&lt;h3 id=&#34;34-prohibition-of-third-party-transit-services&#34;&gt;3.4 Prohibition of Third Party Transit Services&lt;/h3&gt;
+&lt;p&gt;Use of the other party’s Network for Third Party Transit Services (the use of one party’s network to transport traffic between or among two or more destinations, where neither of those destinations is a customer of that party) is strictly prohibited under this Policy.&lt;/p&gt;
+&lt;h3 id=&#34;35-minimum-interconnection-points&#34;&gt;3.5 Minimum Interconnection Points&lt;/h3&gt;
+&lt;p&gt;Interconnection at a minimum of two (2) diverse peering points.&lt;/p&gt;
+&lt;h3 id=&#34;36-routing-configuration&#34;&gt;3.6 Routing Configuration&lt;/h3&gt;
+&lt;p&gt;CentralNic reserves the right to modify the routing configuration in coordination with the Peer as necessary in order to improve routing between the CentralNic and Peer networks.&lt;/p&gt;
+&lt;h1 id=&#34;peering-policy-2&#34;&gt;Peering Policy&lt;/h1&gt;
+&lt;h2 id=&#34;6-customer-relations-and-administration&#34;&gt;6. Customer Relations and Administration&lt;/h2&gt;
+&lt;h3 id=&#34;61-communication-with-customers&#34;&gt;6.1 Communication with Customers&lt;/h3&gt;
+&lt;p&gt;Each party shall be responsible for communicating with its own customers with respect to its Network. However, nothing in this Section shall be interpreted as limiting in any way the ability of either party to engage in confidential discussions with customers of the other party hereto or as requiring notification thereof to the other party.&lt;/p&gt;
+&lt;h3 id=&#34;62-traffic-screening&#34;&gt;6.2 Traffic Screening&lt;/h3&gt;
+&lt;p&gt;Each party shall be responsible to screen the traffic of its own customers not desiring public Internet access from distribution across the Interconnection Point(s).&lt;/p&gt;
+&lt;h3 id=&#34;63-pricing-and-charges&#34;&gt;6.3 Pricing and Charges&lt;/h3&gt;
+&lt;p&gt;Each party shall independently establish the charges to its own customers for the services provided in connection with this Policy.&lt;/p&gt;
+&lt;h2 id=&#34;7-customer-transmitted-data&#34;&gt;7. Customer Transmitted Data&lt;/h2&gt;
+&lt;h3 id=&#34;71-data-monitoring&#34;&gt;7.1 Data Monitoring&lt;/h3&gt;
+&lt;p&gt;Except for data required for traffic analysis and traffic control being examined in order for the parties to operate their respective Network, neither party shall monitor the content of any data or other traffic of the other party, which passes through the Interconnection Point(s).&lt;/p&gt;
+&lt;h3 id=&#34;72-network-modification&#34;&gt;7.2 Network Modification&lt;/h3&gt;
+&lt;p&gt;Neither party shall modify its Network infrastructure or Interconnect Point(s) in any way to examine any data of the other party, unless required to do so by an appropriate regulation, order, or similar action of a court, regulatory or governmental agency of competent jurisdiction.&lt;/p&gt;
+&lt;h3 id=&#34;73-data-sharing-with-third-parties&#34;&gt;7.3 Data Sharing with Third Parties&lt;/h3&gt;
+&lt;p&gt;Except as otherwise agreed between the parties in writing, or upon reasonable written notice and in order to comply with an appropriate regulation, order or similar action of a court, regulatory or governmental agency of competent jurisdiction, neither party shall provide to Third Parties any statistical information derived from data or other traffic of the other party itemized by service provider, by company, or by IP address; provided, however, that each party may provide any of its customers with the customer’s own statistical data, and each party may use such data for projecting future capacity needs.&lt;/p&gt;
+&lt;h2 id=&#34;8-limitation-on-services&#34;&gt;8. Limitation on Services&lt;/h2&gt;
+&lt;p&gt;This Policy shall apply only to IP traffic passing between the parties’ respective Networks. Virtual private data network services and services involving protocols other than the Internet protocols are not covered by this Policy. Neither party shall be entitled or required to carry traffic hereunder if doing so would conflict with any condition imposed by an agreement between the other party and any third party with whom the other party connects.&lt;/p&gt;
+&lt;h2 id=&#34;9-regulatory-approval&#34;&gt;9. Regulatory Approval.&lt;/h2&gt;
+&lt;p&gt;In the event that this Policy, or any of the terms hereof, becomes subject to regulatory approval by any regulatory authority in any jurisdiction including any local, state or federal agencies, the parties shall cooperate, to the extent reasonable and lawful, in providing such information as is necessary to complete any required filing.&lt;/p&gt;
+&lt;h1 id=&#34;appendix-1-technical-data&#34;&gt;APPENDIX 1: Technical Data&lt;/h1&gt;
+&lt;p&gt;The Peering Policy of both parties is dependent on (a) the following parameters in respect of CentralNic and (b) the parameters set out in the GSMA Root DNS Service Agreement in respect of Customer.&lt;/p&gt;
+&lt;h3 id=&#34;technical-contact-details&#34;&gt;Technical Contact details&lt;/h3&gt;
+&lt;p&gt;Address: Saddlers House, 44 Gutter Ln, London EC2V 6BR
+Phone: 020 3388 0600
+Email (General):
+Email (Peering):
+Slack:&lt;/p&gt;
+&lt;h3 id=&#34;asn&#34;&gt;ASN:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;11111&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tsig&#34;&gt;TSIG:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Required for XFR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pops&#34;&gt;PoP&amp;rsquo;s:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AMS_1:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Location: Netherlands&lt;/li&gt;
+&lt;li&gt;Notes:&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NS-1&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;GRX IP: 1.1.1.1&lt;/li&gt;
+&lt;li&gt;Networks: 2.2.2.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NS-2&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;GRX IP: 1.1.1.2&lt;/li&gt;
+&lt;li&gt;Networks: 2.2.2.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AMS_2:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Location: Netherlands&lt;/li&gt;
+&lt;li&gt;Notes:&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NS-3&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;GRX IP: 1.1.1.1&lt;/li&gt;
+&lt;li&gt;Networks: 2.2.2.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NS-4&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;GRX IP: 1.1.1.2&lt;/li&gt;
+&lt;li&gt;Networks: 2.2.2.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SGX:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Location: Singapore&lt;/li&gt;
+&lt;li&gt;Notes:&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NS-5&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;GRX IP: 1.1.1.1&lt;/li&gt;
+&lt;li&gt;Networks: 2.2.2.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NS-6&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;GRX IP: 1.1.1.2&lt;/li&gt;
+&lt;li&gt;Networks: 2.2.2.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IAD:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Location: Ashburn&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;NS-7&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GRX IP: 1.1.1.1&lt;/li&gt;
+&lt;li&gt;Networks: 2.2.2.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;NS-8&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GRX IP: 1.1.1.2&lt;/li&gt;
+&lt;li&gt;Networks: 2.2.2.2&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;1&#34; type=&#34;checkbox&#34; checked /&gt;
+    &lt;label for=&#34;1&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;css&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Really cool snippet&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;Show&#34; data-label-collapse=&#34;Hide&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-css&#34; &gt;&lt;code&gt;
+test
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/posts/about/</link>
+      <pubDate>Fri, 12 Apr 2024 13:45:01 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/about/</guid>
+      <description>## About page</description>
+      <content>&lt;p&gt;## About page&lt;/p&gt;
 </content>
     </item>
     
